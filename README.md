@@ -1,48 +1,38 @@
 
-# ⚡ Advanced Distribution Management System (ADMS) - Mega Simulation
+# Advanced Distribution Management System (ADMS) - Mega Simulation
 
 This repository simulates a **real-world ADMS** with intelligent SCADA control, priority-based restoration, and fault-tolerant grid automation at scale.
 
 ---
 
-## 🔧 Key Features
+## Key Features
 
-### 🧱 Scaled Smart Grid
+### Scaled Smart Grid
 - 1,000+ Load Nodes across 10 geographic zones
 - 30 Substations + 150+ DER-enabled loads
 - Priority-based load classification: High, Medium, Low
 
-### 💥 Fault Simulation
+### Fault Simulation
 - Cascading blackout across multiple zones
 - Removal of DERs and substations in critical regions
 
-### 🧠 SCADA Logic
+### SCADA Logic
 - Smart switching with retry and escalation logic
 - Simulated SCADA command logs with timestamps and delays
 
-### 💸 Cost Engine
+### Cost Engine
 - Outage cost by load criticality ($/minute)
 - SCADA switching cost tracking
 - Per-node restoration cost report
 
-### 📊 Visualization
+### Visualization
 - Priority-based cost breakdown chart
 - Logs and metrics for decision support
+  
 
 ---
 
-## 📂 Folder Structure
-
-```
-├── swarm_manet_simulation.py  # Baseline MANET simulation
-├── adms_simulation.py         # Scalable ADMS engine (1000+ nodes)
-├── output/                    # Logs, plots, reports
-└── README.md                  # Project overview
-```
-
----
-
-## 🚀 How to Run
+## How to Run
 
 ```bash
 git clone https://github.com/DhruvaSankalp/swarm-manet-simulation.git
@@ -52,12 +42,12 @@ python adms_simulation.py
 
 ---
 
-## 🤝 Credits
+## Credits
 
 Created by Dhruva Sankalp with assistance from ChatGPT-4o  
 Inspired by real-world utility grid operations and SCADA systems.
 
 ---
 
-## 📜 License
+## License
 MIT License
